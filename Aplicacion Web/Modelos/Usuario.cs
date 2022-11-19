@@ -13,6 +13,6 @@ namespace Modelos
         public string Clave { get; set; }
         public string? Correo { get; set; }
         public string Rol { get; set; }
-        public string EstadoActivo { get; set; }
+        public bool EstadoActivo { get; set; }
     }
 }
